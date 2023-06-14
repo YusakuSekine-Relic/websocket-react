@@ -1,0 +1,52 @@
+.chat {
+    animation-name: fadeUpAnime;
+    animation-duration: 1.0s;
+}  
+
+.popup {
+    position: absolute;
+    top: 450px;
+    right: 20px;
+    height: 300px;
+    width: 500px;
+    animation-name: popupAnimation;
+    animation-duration: 0.6s;
+}
+
+.message {
+    position: relative;
+    left: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-weight: bold;
+    font-size: 12px;
+    z-index: 1;
+}
+
+@keyframes fadeUpAnime{
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY();
+    }
+}
+
+@keyframes popupAnimation {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+}
