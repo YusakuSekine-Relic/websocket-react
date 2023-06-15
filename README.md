@@ -17,4 +17,6 @@ open localhost:3000/client ← コメントが送れるページ
 open localhost:3000/streamer ← コメントが流れてくるページ
 ```
 
-https://github.com/YusakuSekine-Relic/websocket-react/assets/82276488/01b55882-ade5-45e0-9818-cb97dda12a03
+
+
+https://github.com/YusakuSekine-Relic/websocket-react/assets/82276488/17092f91-d400-461e-84b1-3e7a0a868129
